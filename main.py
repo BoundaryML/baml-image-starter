@@ -7,14 +7,10 @@ import time
 from baml_client.types import ClassWithImage, FakeImage
 from baml_client import BamlClient
 
-# poetry add baml-py baml-cli
-# poetry run python -m baml_cli generate --from baml_src --to baml_client --type 'python/pydantic'
-
 runtime = BamlClient.from_directory("baml_src")
 
 
 async def main():
-    #b = BamlClient.from_directory("baml_src")
     spongebob_image = Image(
         url="https://i.kym-cdn.com/photos/images/original/002/807/304/a0b.jpeg"
     )

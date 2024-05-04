@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-image-test"
+name = "baml-image-starter"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
