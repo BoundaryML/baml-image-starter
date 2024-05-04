@@ -15,7 +15,7 @@ class FakeImage {
 }
 
 class ClassWithImage {
-  myImage image
+  myImage imge
   param2 string
   fake_image FakeImage
 }
